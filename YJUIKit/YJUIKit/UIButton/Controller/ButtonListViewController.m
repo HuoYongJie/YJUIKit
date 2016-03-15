@@ -13,6 +13,7 @@
 #import "Button4ViewController.h"
 #import "Button5ViewController.h"
 #import "Button6ViewController.h"
+#import "UIButton7ViewController.h"
 @interface ButtonListViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic,strong) UITableView *tableview;
 @property (nonatomic,strong) NSArray *kitArray;
@@ -88,6 +89,11 @@
             [self.navigationController pushViewController:[[Button6ViewController alloc]init] animated:YES];
             break;
         }
+        case 6:{
+            
+            [self.navigationController pushViewController:[[UIButton7ViewController alloc]init] animated:YES];
+            break;
+        }
         default:
             break;
     }
@@ -115,7 +121,7 @@
 -(NSArray *)kitArray{
     
     if (_kitArray==nil) {
-        _kitArray=@[@"图片和文字(第一种分类)",@"图片和文字(第二种分类)",@"设置点击间隔时间",@"点击录音按钮",@"扩大点击范围",@"短信倒计时"];
+        _kitArray=@[@"图片和文字(第一种分类)",@"图片和文字(第二种分类)",@"设置点击间隔时间",@"点击录音按钮",@"扩大点击范围",@"短信倒计时",@"GridView"];
         
     }
     

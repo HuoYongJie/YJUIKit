@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3C895A1C9816F700137A9B /* FWGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C89551C9816F700137A9B /* FWGridView.m */; };
+		0A3C895B1C9816F700137A9B /* FWGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C89571C9816F700137A9B /* FWGridViewCell.m */; };
+		0A3C895C1C9816F700137A9B /* FWGridViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C89591C9816F700137A9B /* FWGridViewRow.m */; };
+		0A3C895F1C98170D00137A9B /* UIButton7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C895E1C98170D00137A9B /* UIButton7ViewController.m */; };
+		0A3C89611C9817B200137A9B /* wechat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A3C89601C9817B200137A9B /* wechat.png */; };
 		0AAB20EB1C96F2A700F048C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB20EA1C96F2A700F048C5 /* main.m */; };
 		0AAB20EE1C96F2A700F048C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB20ED1C96F2A700F048C5 /* AppDelegate.m */; };
 		0AAB20F11C96F2A700F048C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB20F01C96F2A700F048C5 /* ViewController.m */; };
@@ -47,6 +52,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A3C89541C9816F700137A9B /* FWGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWGridView.h; sourceTree = "<group>"; };
+		0A3C89551C9816F700137A9B /* FWGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWGridView.m; sourceTree = "<group>"; };
+		0A3C89561C9816F700137A9B /* FWGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWGridViewCell.h; sourceTree = "<group>"; };
+		0A3C89571C9816F700137A9B /* FWGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWGridViewCell.m; sourceTree = "<group>"; };
+		0A3C89581C9816F700137A9B /* FWGridViewRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWGridViewRow.h; sourceTree = "<group>"; };
+		0A3C89591C9816F700137A9B /* FWGridViewRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWGridViewRow.m; sourceTree = "<group>"; };
+		0A3C895D1C98170D00137A9B /* UIButton7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButton7ViewController.h; sourceTree = "<group>"; };
+		0A3C895E1C98170D00137A9B /* UIButton7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButton7ViewController.m; sourceTree = "<group>"; };
+		0A3C89601C9817B200137A9B /* wechat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wechat.png; sourceTree = "<group>"; };
 		0AAB20E61C96F2A700F048C5 /* YJUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AAB20EA1C96F2A700F048C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0AAB20EC1C96F2A700F048C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +127,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A3C89531C9816F700137A9B /* FMGrideView */ = {
+			isa = PBXGroup;
+			children = (
+				0A3C89541C9816F700137A9B /* FWGridView.h */,
+				0A3C89551C9816F700137A9B /* FWGridView.m */,
+				0A3C89561C9816F700137A9B /* FWGridViewCell.h */,
+				0A3C89571C9816F700137A9B /* FWGridViewCell.m */,
+				0A3C89581C9816F700137A9B /* FWGridViewRow.h */,
+				0A3C89591C9816F700137A9B /* FWGridViewRow.m */,
+			);
+			path = FMGrideView;
+			sourceTree = "<group>";
+		};
 		0AAB20DD1C96F2A700F048C5 = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +220,8 @@
 				0AAB21571C97DA3500F048C5 /* Button5ViewController.m */,
 				0AAB21591C97DE4E00F048C5 /* Button6ViewController.h */,
 				0AAB215A1C97DE4E00F048C5 /* Button6ViewController.m */,
+				0A3C895D1C98170D00137A9B /* UIButton7ViewController.h */,
+				0A3C895E1C98170D00137A9B /* UIButton7ViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -207,6 +236,7 @@
 		0AAB212D1C97012C00F048C5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0A3C89531C9816F700137A9B /* FMGrideView */,
 				0AAB21531C97D9B700F048C5 /* UIButton+LargerHitArea.h */,
 				0AAB21541C97D9B700F048C5 /* UIButton+LargerHitArea.m */,
 				0AAB213A1C9702B400F048C5 /* UIButton+ImageAndTitle.h */,
@@ -227,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				0AAB214C1C97D70900F048C5 /* btn_record@2x.png */,
+				0A3C89601C9817B200137A9B /* wechat.png */,
 				0AAB21681C97E09B00F048C5 /* timerBtn_imageView_normal@2x.png */,
 				0AAB21661C97E09600F048C5 /* timerBtn_imageView_highlighted@2x.png */,
 				0AAB213E1C9703E000F048C5 /* newOrder_message@3x.png */,
@@ -323,6 +354,7 @@
 				0AAB20F41C96F2A700F048C5 /* Main.storyboard in Resources */,
 				0AAB21671C97E09600F048C5 /* timerBtn_imageView_highlighted@2x.png in Resources */,
 				0AAB214D1C97D70900F048C5 /* btn_record@2x.png in Resources */,
+				0A3C89611C9817B200137A9B /* wechat.png in Resources */,
 				0AAB21651C97E08D00F048C5 /* timerBtn_imageView_selected@2x.png in Resources */,
 				0AAB213F1C9703E000F048C5 /* newOrder_message@3x.png in Resources */,
 				0AAB21691C97E09B00F048C5 /* timerBtn_imageView_normal@2x.png in Resources */,
@@ -348,14 +380,18 @@
 				0AAB214B1C97D43100F048C5 /* UIButton+touch.m in Sources */,
 				0AAB21421C97C18E00F048C5 /* UIButton+EdgeInsets.m in Sources */,
 				0AAB21601C97DE9300F048C5 /* SNSCodeCountdownButton.m in Sources */,
+				0A3C895C1C9816F700137A9B /* FWGridViewRow.m in Sources */,
 				0AAB215B1C97DE4E00F048C5 /* Button6ViewController.m in Sources */,
 				0AAB21521C97D78600F048C5 /* Button4ViewController.m in Sources */,
 				0AAB213C1C9702B400F048C5 /* UIButton+ImageAndTitle.m in Sources */,
+				0A3C895F1C98170D00137A9B /* UIButton7ViewController.m in Sources */,
 				0AAB20F11C96F2A700F048C5 /* ViewController.m in Sources */,
 				0AAB20EE1C96F2A700F048C5 /* AppDelegate.m in Sources */,
 				0AAB21611C97DE9300F048C5 /* UIImage+ResizeImg.m in Sources */,
 				0AAB21581C97DA3500F048C5 /* Button5ViewController.m in Sources */,
 				0AAB21551C97D9B700F048C5 /* UIButton+LargerHitArea.m in Sources */,
+				0A3C895A1C9816F700137A9B /* FWGridView.m in Sources */,
+				0A3C895B1C9816F700137A9B /* FWGridViewCell.m in Sources */,
 				0AAB21301C97012C00F048C5 /* ButtonListViewController.m in Sources */,
 				0AAB212E1C97012C00F048C5 /* Button1ViewController.m in Sources */,
 				0AAB212F1C97012C00F048C5 /* Button2ViewController.m in Sources */,
@@ -486,6 +522,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YJUIKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YJUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -497,6 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YJUIKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YJUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
