@@ -12,6 +12,8 @@
 		0A3C895C1C9816F700137A9B /* FWGridViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C89591C9816F700137A9B /* FWGridViewRow.m */; };
 		0A3C895F1C98170D00137A9B /* UIButton7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C895E1C98170D00137A9B /* UIButton7ViewController.m */; };
 		0A3C89611C9817B200137A9B /* wechat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A3C89601C9817B200137A9B /* wechat.png */; };
+		0A908D981CAA7F140072CC8F /* YJTextFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A908D951CAA7F140072CC8F /* YJTextFiled.m */; };
+		0A908D991CAA7F140072CC8F /* YJTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A908D971CAA7F140072CC8F /* YJTextView.m */; };
 		0AAB20EB1C96F2A700F048C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB20EA1C96F2A700F048C5 /* main.m */; };
 		0AAB20EE1C96F2A700F048C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB20ED1C96F2A700F048C5 /* AppDelegate.m */; };
 		0AAB20F11C96F2A700F048C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAB20F01C96F2A700F048C5 /* ViewController.m */; };
@@ -61,6 +63,10 @@
 		0A3C895D1C98170D00137A9B /* UIButton7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButton7ViewController.h; sourceTree = "<group>"; };
 		0A3C895E1C98170D00137A9B /* UIButton7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButton7ViewController.m; sourceTree = "<group>"; };
 		0A3C89601C9817B200137A9B /* wechat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wechat.png; sourceTree = "<group>"; };
+		0A908D941CAA7F140072CC8F /* YJTextFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTextFiled.h; sourceTree = "<group>"; };
+		0A908D951CAA7F140072CC8F /* YJTextFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTextFiled.m; sourceTree = "<group>"; };
+		0A908D961CAA7F140072CC8F /* YJTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTextView.h; sourceTree = "<group>"; };
+		0A908D971CAA7F140072CC8F /* YJTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTextView.m; sourceTree = "<group>"; };
 		0AAB20E61C96F2A700F048C5 /* YJUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AAB20EA1C96F2A700F048C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0AAB20EC1C96F2A700F048C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -140,6 +146,17 @@
 			path = FMGrideView;
 			sourceTree = "<group>";
 		};
+		0A908D931CAA7F080072CC8F /* YJKit */ = {
+			isa = PBXGroup;
+			children = (
+				0A908D941CAA7F140072CC8F /* YJTextFiled.h */,
+				0A908D951CAA7F140072CC8F /* YJTextFiled.m */,
+				0A908D961CAA7F140072CC8F /* YJTextView.h */,
+				0A908D971CAA7F140072CC8F /* YJTextView.m */,
+			);
+			path = YJKit;
+			sourceTree = "<group>";
+		};
 		0AAB20DD1C96F2A700F048C5 = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +178,7 @@
 		0AAB20E81C96F2A700F048C5 /* YJUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				0A908D931CAA7F080072CC8F /* YJKit */,
 				0AAB213D1C9703D700F048C5 /* Image */,
 				0AAB21241C97012C00F048C5 /* UIButton */,
 				0AAB20EC1C96F2A700F048C5 /* AppDelegate.h */,
@@ -382,6 +400,7 @@
 				0AAB21601C97DE9300F048C5 /* SNSCodeCountdownButton.m in Sources */,
 				0A3C895C1C9816F700137A9B /* FWGridViewRow.m in Sources */,
 				0AAB215B1C97DE4E00F048C5 /* Button6ViewController.m in Sources */,
+				0A908D981CAA7F140072CC8F /* YJTextFiled.m in Sources */,
 				0AAB21521C97D78600F048C5 /* Button4ViewController.m in Sources */,
 				0AAB213C1C9702B400F048C5 /* UIButton+ImageAndTitle.m in Sources */,
 				0A3C895F1C98170D00137A9B /* UIButton7ViewController.m in Sources */,
@@ -391,6 +410,7 @@
 				0AAB21581C97DA3500F048C5 /* Button5ViewController.m in Sources */,
 				0AAB21551C97D9B700F048C5 /* UIButton+LargerHitArea.m in Sources */,
 				0A3C895A1C9816F700137A9B /* FWGridView.m in Sources */,
+				0A908D991CAA7F140072CC8F /* YJTextView.m in Sources */,
 				0A3C895B1C9816F700137A9B /* FWGridViewCell.m in Sources */,
 				0AAB21301C97012C00F048C5 /* ButtonListViewController.m in Sources */,
 				0AAB212E1C97012C00F048C5 /* Button1ViewController.m in Sources */,
