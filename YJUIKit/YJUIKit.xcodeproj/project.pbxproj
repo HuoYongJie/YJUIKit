@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A185C5F1DD55ED4000D1D95 /* NSString+Height.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A185C5E1DD55ED4000D1D95 /* NSString+Height.m */; };
 		0A3C895A1C9816F700137A9B /* FWGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C89551C9816F700137A9B /* FWGridView.m */; };
 		0A3C895B1C9816F700137A9B /* FWGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C89571C9816F700137A9B /* FWGridViewCell.m */; };
 		0A3C895C1C9816F700137A9B /* FWGridViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C89591C9816F700137A9B /* FWGridViewRow.m */; };
@@ -54,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A185C5D1DD55ED4000D1D95 /* NSString+Height.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Height.h"; sourceTree = "<group>"; };
+		0A185C5E1DD55ED4000D1D95 /* NSString+Height.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Height.m"; sourceTree = "<group>"; };
 		0A3C89541C9816F700137A9B /* FWGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWGridView.h; sourceTree = "<group>"; };
 		0A3C89551C9816F700137A9B /* FWGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWGridView.m; sourceTree = "<group>"; };
 		0A3C89561C9816F700137A9B /* FWGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWGridViewCell.h; sourceTree = "<group>"; };
@@ -149,6 +152,8 @@
 		0A908D931CAA7F080072CC8F /* YJKit */ = {
 			isa = PBXGroup;
 			children = (
+				0A185C5D1DD55ED4000D1D95 /* NSString+Height.h */,
+				0A185C5E1DD55ED4000D1D95 /* NSString+Height.m */,
 				0A908D941CAA7F140072CC8F /* YJTextFiled.h */,
 				0A908D951CAA7F140072CC8F /* YJTextFiled.m */,
 				0A908D961CAA7F140072CC8F /* YJTextView.h */,
@@ -407,6 +412,7 @@
 				0AAB20F11C96F2A700F048C5 /* ViewController.m in Sources */,
 				0AAB20EE1C96F2A700F048C5 /* AppDelegate.m in Sources */,
 				0AAB21611C97DE9300F048C5 /* UIImage+ResizeImg.m in Sources */,
+				0A185C5F1DD55ED4000D1D95 /* NSString+Height.m in Sources */,
 				0AAB21581C97DA3500F048C5 /* Button5ViewController.m in Sources */,
 				0AAB21551C97D9B700F048C5 /* UIButton+LargerHitArea.m in Sources */,
 				0A3C895A1C9816F700137A9B /* FWGridView.m in Sources */,
